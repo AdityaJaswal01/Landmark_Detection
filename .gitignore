@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs & editors
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model outputs
+Model/
+*.h5
+*.keras
+
+# Dataset (large files should not be pushed)
+images/
+train.csv
+
+# Matplotlib cache
+.matplotlib/
+
+# TensorFlow
+logs/
